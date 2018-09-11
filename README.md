@@ -20,11 +20,11 @@ The corners of all three buttons were rounded using a `User Defined Runtime Attr
 https://stackoverflow.com/questions/38874517/how-to-make-a-simple-rounded-button-in-storyboard
 
 The color pallete used: 
--Primary: #F7D488
--Secondary: #F3B61F
--Accent-light: #E01A4F
--Accent-dark: #270722
--Highlight: #D3FAD6
+  -Primary: #F7D488
+  -Secondary: #F3B61F
+  -Accent-light: #E01A4F
+  -Accent-dark: #270722
+  -Highlight: #D3FAD6
 
 <img src="http://g.recordit.co/RLdiOFrhfg.gif" width=350><br>
 
