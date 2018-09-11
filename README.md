@@ -1,14 +1,33 @@
-## NAME_OF_YOUR_APP_HERE
+## Hello World, From Enrique
 
 ### App Description
-`TODO://` Add app description
+This is a small iOS app that demonstrates different ways to use basic views. Three buttons and a text field are used to alter the text labels and the app's background. 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+The app in action: 
+<img src="http://g.recordit.co/s9KU87WmcD.gif" width=200><br>
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+This app has the user interact with three buttons and a text field in order to alter the text label and the background view of the app. 
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
+When tapping the 'Change Text' button, the main text lable will change to display the message *"Goodbye 👋"*, if there is no text in the text field. If the user writes a message in the text field then the text lable will be changed to whatever is inside the text field. At the same time, the helper text underneath the main text lable will be toggled to *isHidden*
+
+The second button is the 'Change Text color' button, which just changes the color of the text lable to a different color (*in this case that color is Spanish Red -#E01A4F*). 
+
+Finally, the 'Change view color' will change the background view's color to *Aero Blue -#D3FAD6*
+
+### Additionally: 
+The corners of all three buttons were rounded using a `User Defined Runtime Attributte`: *layer.cornerRadius*. I learned to do this thanks to the following StackOverflow post: 
+https://stackoverflow.com/questions/38874517/how-to-make-a-simple-rounded-button-in-storyboard
+
+The color pallete used: 
+-Primary: #F7D488
+-Secondary: #F3B61F
+-Accent-light: #E01A4F
+-Accent-dark: #270722
+-Highlight: #D3FAD6
+
+<img src="http://g.recordit.co/RLdiOFrhfg.gif" width=350><br>
+
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
