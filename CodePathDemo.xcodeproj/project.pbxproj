@@ -14,6 +14,8 @@
 		37DF23E421419E8B00151CF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DF23E221419E8B00151CF5 /* LaunchScreen.storyboard */; };
 		37DF23EF21419E8B00151CF5 /* CodePathDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF23EE21419E8B00151CF5 /* CodePathDemoTests.swift */; };
 		37DF23FA21419E8B00151CF5 /* CodePathDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF23F921419E8B00151CF5 /* CodePathDemoUITests.swift */; };
+		37E3B687214AFAE4006A24D2 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E3B686214AFAE4006A24D2 /* UIColor+Hex.swift */; };
+		37E3B689214AFBE5006A24D2 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E3B688214AFBE5006A24D2 /* UIColor+CustomColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		37DF23F521419E8B00151CF5 /* CodePathDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodePathDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DF23F921419E8B00151CF5 /* CodePathDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePathDemoUITests.swift; sourceTree = "<group>"; };
 		37DF23FB21419E8B00151CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E3B686214AFAE4006A24D2 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		37E3B688214AFBE5006A24D2 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				37DF23D921419E8800151CF5 /* AppDelegate.swift */,
 				37DF23DB21419E8800151CF5 /* ViewController.swift */,
+				37E3B686214AFAE4006A24D2 /* UIColor+Hex.swift */,
+				37E3B688214AFBE5006A24D2 /* UIColor+CustomColors.swift */,
 				37DF23DD21419E8800151CF5 /* Main.storyboard */,
 				37DF23E021419E8B00151CF5 /* Assets.xcassets */,
 				37DF23E221419E8B00151CF5 /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E3B687214AFAE4006A24D2 /* UIColor+Hex.swift in Sources */,
 				37DF23DC21419E8800151CF5 /* ViewController.swift in Sources */,
+				37E3B689214AFBE5006A24D2 /* UIColor+CustomColors.swift in Sources */,
 				37DF23DA21419E8800151CF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

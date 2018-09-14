@@ -16,12 +16,36 @@ class ViewController: UIViewController {
     var backgroundColor: UIColor!
     var textColor: UIColor!
     
+    var backgroundColors: [UIColor] =
+        [UIColor.CustomColor.Red.jellyBean,
+         UIColor.CustomColor.Green.aeroBlue,
+         UIColor.CustomColor.Green.midAquarium,
+         UIColor.CustomColor.Blue.spaceCadet,
+         UIColor.CustomColor.Blue.veryLightAzure
+        ]
+    
+
+    
+    // Get a random colors from selected colors array
+    func getRandColor() -> UIColor {
+        let color: UIColor
+        let elementsInArray:UInt32 = UInt32(backgroundColors.count)
+        let randNum: Int = Int(arc4random_uniform(elementsInArray))
+    
+        color = backgroundColors[randNum]
+        
+        return color
+    }
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         backgroundColor = view.backgroundColor
         textColor = textLable.textColor
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,16 +56,13 @@ class ViewController: UIViewController {
     
     // Change Text Color
     @IBAction func didTapButton(_ sender: Any) {
-        textLable.textColor = UIColor.init(red: 224/255, green: 26/255, blue: 79/255, alpha: 1)
+        textLable.textColor = getRandColor()
         helperTextLabel.isHidden = true
     }
 
-     /* Change Background Color
-     Additionally:
-        - Change the button color to match with the lighter background color.
-     */
+     //Change Background Color
     @IBAction func didTapviewButton(_ sender: Any) {
-        view.backgroundColor = UIColor.init(red: 211/255, green: 250/255, blue: 214/255, alpha: 1)
+        view.backgroundColor = getRandColor()
         helperTextLabel.isHidden = true
     }
     
