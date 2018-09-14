@@ -33,6 +33,7 @@ The base color pallete used: <br>
 -Accent-dark: #270722 <br>
 -Highlight: #D3FAD6
 
+
 <img src="http://g.recordit.co/RLdiOFrhfg.gif" width=350><br>
 
 Additional colors hex values: 
