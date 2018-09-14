@@ -16,7 +16,7 @@ The second and third buttons are the 'Change Text color' button,  and 'Change vi
 
 <img src="http://g.recordit.co/dEhzJAXrLC.gif" width=200><br>
 
-<img src="https://imgur.com/Hx4vGTu" alt="screenshot of backgroundColors array" width=200><br>
+<img src="https://i.imgur.com/Hx4vGTu.jpg" alt="screenshot of backgroundColors array" width=200><br>
 *array of colors*
 
 ### Note: 
@@ -37,7 +37,7 @@ The base color pallete used: <br>
 <img src="http://g.recordit.co/RLdiOFrhfg.gif" width=350><br>
 
 Additional colors hex values: 
-<img src="https://imgur.com/8ZW0bym" width=300>
+<img src="https://i.imgur.com/8ZW0bym.jpg" width=300>
 
 
 ### Required User Stories
